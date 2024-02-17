@@ -5,7 +5,7 @@ touch Dockerfile
 gedit Dockerfile
 
 ```
-!![](https://github.com/SlavaOgnev/LAB_4/blob/main/скрины%20для%204/IMAGE%202024-02-17%2014%3A51%3A28.jpg)
+![](https://github.com/SlavaOgnev/LAB_4/blob/main/скрины%20для%204/IMAGE%202024-02-17%2014%3A51%3A28.jpg)
 На этом Dockerfile готов, закрываем и сохраняем его под этим названием. В терминале в папке с этим файлом запускаем команду сборки образа с тегом “cowsay”.
 ```
 docker build -t cowsay .
