@@ -15,7 +15,7 @@ docker build -t cowsay .
 docker run cowsay /usr/games/cowsay "Moo"
 ```
 ![](https://github.com/SlavaOgnev/LAB_4/blob/main/скрины%20для%204/Снимок%20экрана%202024-02-16%20в%2000.56.16.png)
-Далее можем подключиться запустить контейнер и  подключиться к нему напрямую командой
+#### Далее можем подключиться запустить контейнер и  подключиться к нему напрямую командой
 ```
 docker run -it cowsay
 ```
@@ -39,7 +39,7 @@ docker network inspect myNetwork
 ```
 docker exec -it cowsay_container ping <IP-адрес_другого_контейнера>
 ```
-Отлично, все работает
+#### Отлично, все работает
 ![](https://github.com/SlavaOgnev/LAB_4/blob/main/скрины%20для%204/Снимок%20экрана%202024-02-17%20в%2015.07.28.png)
 
 
